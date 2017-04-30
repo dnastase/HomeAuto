@@ -30,7 +30,7 @@ main.show();
 
 function getInfo() {
    console.log('getInfo.');
-   ajax({ url: 'http://www.dnastase.info/pebble.txt', type: 'text' },
+   ajax({ url: 'http://www.dnastase.net', type: 'text' },
      function(data) {
        text.text(data);
        console.log('getInfo data:' + data);
